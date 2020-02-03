@@ -27,6 +27,7 @@ export default function App() {
   const [data, setData] = useState();
   const [loading, setLoading] = useState(false);
 
+  // testing git repo creation
   const getData = id => {
     return fetch(`https://jsonplaceholder.typicode.com/todos/${id}`)
       .then(response => response.json())
